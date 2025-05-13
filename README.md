@@ -42,7 +42,6 @@ This project demonstrates how to:
 ### 3. Basic Data Analysis
 
 - Data types and missing values are checked using `info()` and `isnull().sum()`.
-- (You may consider adding `describe()` or further groupby/statistics if needed.)
 
 ### 4. Data Visualization
 
@@ -144,14 +143,6 @@ plt.show()
 - **Cost Trends:** The living cost index trends and its relation to exchange rates are visualized.
 - **Category Comparison:** The bar chart gives an at-a-glance comparison of exchange rates by cost index.
 - **Correlation:** The scatter plot helps spot any patterns between exchange rate and living cost.
-
----
-
-## Additional Notes
-
-- Make sure your CSV column names exactly match the code (`'Exchange_Rate'`, `'Living_Cost_Index'` etc.).
-- Customize plot titles, labels, and axis names as needed for your data.
-- Consider extending this with more analysis (groupbys, statistical summaries, etc.) for a richer report.
 
 ---
 
